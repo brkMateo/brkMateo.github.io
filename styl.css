@@ -1,0 +1,26 @@
+body{
+    background-image: linear-gradient(white, green);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#napis{
+    padding-top: 7%;
+    text-align: center;
+    font-size: 150%;
+}
+
+#mapa{
+    position: absolute;
+    border: green dashed 2px;
+    width: 25%;
+    height: 38%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#iframeMapa{
+    width: 25%;
+    height: 35%;
+}
